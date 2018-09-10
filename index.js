@@ -15,9 +15,9 @@ console.log ('hello');
 }
 
 function sayHiToGrandma(string) {
-  if ('hello')
+  if (string === 'hello')
   return "I can't hear you!";
-  if ('HELLO')
+  if (string === 'HELLO')
   return "YES INDEED!";
   if (string === "I love you, Grandma.")
   return "I love you, too.";
